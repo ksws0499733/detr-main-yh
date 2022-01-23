@@ -1,0 +1,10 @@
+python my_main.py --batch_size 8 \
+--no_aux_loss \
+--eval \
+--epochs 10 \
+--backbone resnet50 \
+--masks \
+--iRailway_path /home/user1106/DataSet/all_dataset/yinchuan01 \
+--output_dir run/test
+
+python my_main.py --batch_size 8 --no_aux_loss --eval --epochs 10 --backbone resnet50 --masks --iRailway_path /home/user1106/DataSet/all_dataset/yinchuan01 --output_dir run/test

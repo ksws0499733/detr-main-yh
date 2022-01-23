@@ -1,0 +1,12 @@
+labelme_json_to_dataset scence1 -c Ballast,RailwayLine,track_left,track_right 
+
+
+labelme_json_to_dataset middle -c Ballast,RailwayLine,track_left,track_right -w=10 -m=0
+
+railwayline
+
+ballast
+
+track
+
+labelme_json_to_dataset yinchuan -c ballast,railwayline,track -w=10 -m=0
